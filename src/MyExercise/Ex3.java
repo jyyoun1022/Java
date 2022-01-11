@@ -9,16 +9,19 @@ public class Ex3 {
         this.n = n;
     }
 
-    public static int numberNum(int n){ //만약여기에 throws가 걸렸으면 sout문에서 트라이,캐치를 해야하냐?
-        int count=0;
-        while(true){
-            if(n == 0){
-                break;
-            }
-            n /= 10;
-            count++;
-        }
-        return count;
+    public static int numberNum(int n){
+
+        String s = ""+n;
+        return s.length();
+//        int count=0;
+//        while(true){
+//            if(n == 0){
+//                break;
+//            }
+//            n /= 10;
+//            count++;
+//        }
+//        return count;
 
     }
     public static void main(String[] args) throws InputMismatchException {
@@ -31,6 +34,7 @@ public class Ex3 {
         }catch(InputMismatchException e){
             System.out.println("정수로만 입력하라고 했잖아요..");
         }
+
     }
     }
 
