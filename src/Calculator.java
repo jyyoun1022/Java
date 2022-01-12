@@ -2,7 +2,7 @@ import java.util.Scanner;
 class Operation{
     int num1;
     int num2;
-    char oper;
+    char per;
 public Operation(){}
 
     public static int add (int num1,int num2){
