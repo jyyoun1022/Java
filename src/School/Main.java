@@ -27,7 +27,7 @@ public class Main {
                     if (s.getStudentName().equals(whatName)) {
                         System.out.println("[" + s.getStudentName() + " 님의 휴대폰 번호는 " + s.getPhoneNumber() +" 입니다.]");
                     } else {
-                        System.out.println("성함을 다시 입력해주세요");
+
                     }
                 }
 
