@@ -1,4 +1,4 @@
-package hakjum;
+package hakjum.report;
 
 
 public class GenerateGradeReport {  //학점평가에 대한 클래스 들은 인스턴스화 하고 이에 대한 배열을 만들어 각 과목에 점수를 산정 할때 필수 과목인지 일반 과목인지 에 따라 각 정책 클래스가 학점을 평가할 수 있도록 구현해보자.
