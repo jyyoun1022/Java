@@ -22,5 +22,8 @@ public class Sample {
         h2.move();  //만약 Hero에 move메서드를 재정의 하지 않았다고한다면 부모 클래스것이 출력된다.
         h2.eat();
         h2.displayPerson();
+
+        Person p12 = h2;
+        p12.move();
     }
 }

@@ -12,6 +12,7 @@ public class CustomerTest {
         seller.sell();
         seller.order();
 
+
         if(seller instanceof Customer){
             Customer customer2 = (Customer) seller;
             customer2.buy();
